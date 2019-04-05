@@ -1,0 +1,16 @@
+# UMich GitLab
+Host gitlab
+  HostName gitlab.com
+  User git
+  IdentityFile ~/.ssh/schulteb_rsa
+# CAEN
+Host schb
+  HostName login.engin.umich.edu
+  User schulteb
+  Compression yes
+# Home media server
+Host nas
+  #HostName 10.180.239.64
+  User schulteb
+  IdentityFile ~/.ssh/id_rsa
+

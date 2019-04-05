@@ -1,0 +1,2 @@
+find . -name __pycache__ -exec rm -rf {} \;
+tar -czvf submit.tar.gz --disable-copyfile bin insta485 package-lock.json package.json setup.py sql webpack.config.js deployed_index.html deployed_retrieve.log
