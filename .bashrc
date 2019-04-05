@@ -84,11 +84,10 @@ alias modshellscripts='find . -type f -name "*.sh" -exec chmod 555 {} \;'
 alias find_Any='find_any'
 #Typos
 alias dc='cd';
-alias cl='~/.scripts/clogin';
+alias cl='~/clogin';
 alias 388='cd ~/Google_Drive/EECS_388';
 alias go485='cd ~/Google_Drive/EECS_485/p4-mapreduce';
 alias envstart='cd ~/Google_Drive/EECS_485/p5-search-engine;source env/bin/activate;'
-alias 485submit='~/.scripts/485submit;'
 alias fish='/usr/local/bin/fish;'
 alias tune='cd Google_Drive/RM_tune/Room_tune/;'
 alias 201='cd ~/Google_Drive/eecs_201;'
